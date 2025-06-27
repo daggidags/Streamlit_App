@@ -4,4 +4,5 @@ Description: Movie Review Sentiment Classifier is a Streamlit web application th
 
 Example output:
 
-![image](https://github.com/user-attachments/assets/697f7beb-fcd8-4d7f-a837-eb09d362b573)
+![image](https://github.com/user-attachments/assets/2bd7dddc-b8f0-4fc5-80d7-fc3af1dc0fd6)
+
