@@ -25,14 +25,14 @@ Follow these steps to build and run the application in a Docker container:
 2. **Build the Docker image:**
 
    ```bash
-docker build -t sentiment-app .
+   docker build -t sentiment-app .
 
 3. **Run Docker:**
 
    ```bash
-docker run -d -p 8501:8501 --name sentiment-container sentiment-app
+   docker run -d -p 8501:8501 --name sentiment-container sentiment-app
 
-##4. Open the app in web browser by visiting: 
+4. **Open the app in web browser by visiting:**
 
 http://localhost:8501
 
