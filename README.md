@@ -4,11 +4,11 @@ This project is a Movie Review Sentiment Classifier created using a Streamlit ap
 
 ---
 
-## Prerequisites
 
-To run this project, you need:
 
-- [Docker](https://www.docker.com/) installed and running on your machine.
+## Note: Docker is needed to be installed and running on your machine:
+
+- [Docker](https://www.docker.com/) 
 
 ---
 
@@ -21,6 +21,24 @@ Follow these steps to build and run the application in a Docker container:
    ```bash
    git clone <YOUR_REPO_URL>
    cd <YOUR_PROJECT_DIRECTORY>
+
+2. **Build the Docker image:**
+
+```bash
+docker build -t sentiment-app .
+
+3. **Run Docker:**
+
+```bash
+docker run -d -p 8501:8501 --name sentiment-container sentiment-app
+
+4. **Open the app in web browser by visiting: **
+
+http://localhost:8501
+
+You should see the Streamlit local site where you can enter a review and have it analyzed!
+
+
 
 
 
